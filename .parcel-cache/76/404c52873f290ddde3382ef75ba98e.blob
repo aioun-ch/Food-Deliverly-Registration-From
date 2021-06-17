@@ -1,0 +1,100 @@
+html, body {
+  font-size: 16px;
+}
+
+body {
+  background: #F197A2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4152A5, #F197A2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4152A5, #F197A2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+form {
+  margin: 0 auto;
+  width: 340px;
+}
+
+input[type=text] {
+  margin-bottom: 1.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 4px #000000ad;
+}
+
+input[type=text]::placeholder {
+  color: lightgray;
+  font-size: 14.5px;
+}
+
+.field_1 {
+  margin-bottom: 1.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 4px #000000ad;
+}
+
+input[type=submit] {
+  font-family: "Montserrat", Semi-bold;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1.25rem;
+}
+
+.field {
+  display: flex;
+}
+
+.field-checkboxes {
+  margin-top: 2rem;
+}
+
+.field-checkbox {
+  display: flex;
+  margin-bottom: 1.5rem;
+  color: #9fabd388;
+}
+.field-checkbox p {
+  margin: 0;
+  margin-left: 1.5rem;
+}
+
+.field-submit {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.form-wrapper {
+  background-color: #afafdb77;
+  width: 375px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  color: #f5d0d4;
+  border-radius: 18px;
+  box-shadow: 0px 1px 3px #efcaf7ad;
+}
+
+.form-title {
+  font-family: "Montserrat";
+  font-size: 24px;
+  text-align: center;
+  background-color: #070749c0;
+  padding: 0.75rem 1.5rem;
+  margin: -1.5rem;
+  margin-bottom: 1.5rem;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+/*# sourceMappingURL=index.HASH_REF_91870f3c19f8a82cc61dbb48b05be581.css.map */
